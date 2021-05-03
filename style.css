@@ -3,8 +3,74 @@ body {
   
 }
 
-h1 {
-    font-size: xx-large;
-    font-style: italic;
+h1#Title{
+    font-size: 5vw;
+    font-style: normal;
     text-align: center;
+    
 }
+
+h2 {
+    font-style: oblique;
+    text-align: left;
+    
+}
+
+ul#About {
+    text-align: left;
+    font-size: medium;
+    border-left: 10px solid darkolivegreen;    
+}
+
+ul#accomplishments{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 0px;
+    align-items: center;
+    font-size: 2vw;
+}
+
+li#rocorockfootworkvideo {
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+li#floorgangzannivideo {
+    margin-top: 10px;
+    margin-bottom: 50px;
+ }
+
+ li#kingofthecityvideo {
+    margin-top: 10px;
+    margin-bottom: 50px;
+ }
+
+ li#rocorock2video {
+    margin-top: 10px;
+    margin-bottom: 50px;
+ }
+
+ div#message{
+     background-color: white;
+     text-align: left;
+     align-items: center;
+     font-size: small;
+     border: 2px solid black;
+     padding: 5px;
+     width: 200px;
+     height: 150px;
+
+ }
+
+ div#submit{
+     background-color: darkturquoise;
+     text-align: center;
+     align-items: center;
+     border-radius: 25px;
+     border: 2px solid black;
+     padding: 0px;
+     width: 5%;
+     height: 100%;
+
+
+ }
