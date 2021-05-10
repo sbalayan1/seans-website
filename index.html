@@ -5,9 +5,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="Title">Sean the Sheep</h1>
+        <h1 class= "blue" id="Title">Sean the Sheep</h1>
         <h2 id="Biography"><b>Biography</b></h2>
-        <p id=""></p>
         <ul id="About">
             <li>Representing Pineapple Pickerz, HI</li>
             <li>25 years old</li>
@@ -25,10 +24,36 @@
                 <li id="rocorock2"><b>Roco Rock 2 Year Anniversary Invite</b></li>
                 <li id="rocorock2video"><iframe width="560" height="315" src="https://www.youtube.com/embed/g4ZtFfNCpBQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </li>
                 
-            </ul></li>
+            </ul></li>        
         </ul>
-        <p style="align-items: center;"><b>Got a question? I'd love to hear from you!</b></p>
-        <div id="message">Message</div>
-        <div id="submit">Submit</div>
+
+        <!--code for dodger-->
+        <div id="game">
+            <div id="dodger" style="bottom: 0px; left: 180px;"></div> 
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    
+
+        <!--code for contact form-->
+        <p><b>Got a question? I'd love to hear from you!</b></p>
+    
+        <div class="container">
+            <form action="action_page.php"> <!-- need php for this to work -->
+          
+              <label for="fname"></label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname"></label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject"></label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+
+        </div>
+
     </body>
-</html>
+</html> 
